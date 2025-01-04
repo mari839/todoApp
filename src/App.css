@@ -1,0 +1,28 @@
+body {
+  background-color: white;
+  color: black;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+.dark-mode-btn {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border: 2px solid #333;
+  cursor: pointer;
+}
+
+.dark-mode-btn i {
+  font-size: 20px;
+  color: #333;
+}
+
+body.dark-mode .dark-mode-btn i {
+  color: white;
+}
