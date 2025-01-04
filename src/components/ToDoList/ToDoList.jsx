@@ -5,7 +5,7 @@ function ToDoList({ tasks, toggleTaskCompletion, deleteTask, editTask }) {
   return (
     <div>
       {tasks.length === 0 ? (
-        <p className="text-center text-muted">No notes available</p>
+        <p className="text-center text-muted">No notes available</p>  
       ) : (
         <ul className="list-group">
           {tasks.map((task) => (
